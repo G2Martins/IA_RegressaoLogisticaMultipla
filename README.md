@@ -40,7 +40,7 @@ Com uma duração de jogo de 30 minutos, o gráfico mostra a chance de vitória 
 Aqui estão as 10 features mais importantes que influenciam o modelo. O tempo de jogo e alguns campeões se destacam como os maiores contribuintes para a probabilidade de vitória.
 
 ## 📈 Acurácia do Modelo
-Nos testes realizados, o modelo alcançou uma acurácia de **XX.XX%**, um resultado promissor dado o desequilíbrio nos dados de vitória/derrota.
+Nos testes realizados, o modelo alcançou uma acurácia de **59.70%**, um resultado promissor dado o desequilíbrio nos dados de vitória/derrota.
 
 🤝 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
