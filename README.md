@@ -1,6 +1,6 @@
 # Prevendo Vitórias em League of Legends com Regressão Logística Múltipla 🏆🎮
 
-Este projeto utiliza Regressão Logística Múltipla para prever a probabilidade de vitória de um time no jogo *League of Legends* (LoL), utilizando dados da Season 11. As previsões são baseadas na composição de 5 campeões para cada time e no tempo total da partida.
+Este projeto utiliza Regressão Logística Múltipla para prever a probabilidade de vitória de um time no jogo *League of Legends* (LoL), utilizando campeões da Season 11. As previsões são baseadas na composição de 5 campeões para cada time e no tempo total da partida.
 
 ## 📂 Arquivos Principais
 - **`s11.csv`**: Dataset contendo os dados das partidas, incluindo a composição de campeões e o resultado da partida.
@@ -25,7 +25,7 @@ Este projeto utiliza Regressão Logística Múltipla para prever a probabilidade
 ## 📊 Gráficos Gerados
 
 ### 1. Probabilidade de Vitória 🎯
-![Probabilidade de Vitória](caminho_para_o_grafico_1.png)
+![Probabilidade de Vitória](.github/assets/vitoria.png)
 
 Este gráfico exibe a composição dos times e as probabilidades previstas de vitória. O exemplo abaixo usa as seguintes composições:
 
@@ -35,7 +35,7 @@ Este gráfico exibe a composição dos times e as probabilidades previstas de vi
 Com uma duração de jogo de 30 minutos, o gráfico mostra a chance de vitória de cada time.
 
 ### 2. Importância das Features 🛠️
-![Importância das Features](caminho_para_o_grafico_2.png)
+![Importância das Features](.github/assets/feature.png)
 
 Aqui estão as 10 features mais importantes que influenciam o modelo. O tempo de jogo e alguns campeões se destacam como os maiores contribuintes para a probabilidade de vitória.
 
