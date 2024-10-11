@@ -8,11 +8,14 @@ Este projeto utiliza Regressão Logística Múltipla para prever a probabilidade
 
 ## 🚀 Funcionamento do Projeto
 
-### Passos:
+### Etapas do Desenvolvimento:
 
 1. **Carregamento e Preprocessamento**: Os dados são carregados a partir do arquivo `s11.csv`, e a duração da partida é convertida para minutos. A composição dos times é codificada usando *one-hot encoding*.
+   
 2. **Treinamento do Modelo**: Utiliza-se o algoritmo de Regressão Logística para treinar o modelo, ajustando pesos para balancear as classes (vitória/derrota).
+   
 3. **Predição e Visualização**: O modelo prevê a probabilidade de vitória para o Time 1 e o Time 2 com base na composição e tempo de jogo, exibindo um gráfico com as probabilidades.
+
 4. **Importância das Features**: Um gráfico adicional é gerado mostrando as 10 features mais importantes que influenciam o resultado da partida.
 
 ## 🧠 Tecnologias Utilizadas
@@ -42,13 +45,20 @@ Aqui estão as 10 features mais importantes que influenciam o modelo. O tempo de
 ## 📈 Acurácia do Modelo
 Nos testes realizados, o modelo alcançou uma acurácia de **59.70%**, um resultado promissor dado o desequilíbrio nos dados de vitória/derrota.
 
-🤝 Contribuições
+## 🤝 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
-🏅 Créditos
-Este projeto foi desenvolvido por: 
-• Caio Silveira Guimarães
-• Gustavo Martins Gripaldi
-• Giovanna Monteiro Bispo
-• Mariana Monteiro Bispo
-• Mayron Malaquias Oliveira
+## 🏅 Créditos
+
+Este projeto foi desenvolvido com a colaboração de uma equipe de grandes invocadores! 🌟
+
+- **Caio Silveira Guimarães** 🧠✨
+- **Gustavo Martins Gripaldi** 🎮💡
+- **Giovanna Monteiro Bispo** 🔍🎯
+- **Mariana Monteiro Bispo** 💻🔥
+- **Mayron Malaquias Oliveira** ⚡🎨
+
+Cada membro contribuiu com seu talento e habilidades, garantindo que este projeto fosse não apenas tecnicamente preciso, mas também inovador e divertido!
+
+---
+
