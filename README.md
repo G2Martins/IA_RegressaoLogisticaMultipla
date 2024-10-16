@@ -10,7 +10,7 @@ Este projeto utiliza Regressão Logística Múltipla para prever a probabilidade
 
 ### Etapas do Desenvolvimento:
 
-1. **Carregamento e Preprocessamento**: Os dados são carregados a partir do arquivo `s11.csv`, e a duração da partida é convertida para minutos. A composição dos times é codificada usando *one-hot encoding*.
+1. **Carregamento e Pré-processamento**: Os dados são carregados a partir do arquivo `s11.csv`, e a duração da partida é convertida para minutos. A composição dos times é codificada usando *one-hot encoding*.
    
 2. **Treinamento do Modelo**: Utiliza-se o algoritmo de Regressão Logística para treinar o modelo, ajustando pesos para balancear as classes (vitória/derrota).
    
